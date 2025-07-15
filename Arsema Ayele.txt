@@ -1,0 +1,154 @@
+﻿Computer Networking Quiz
+1. What is networking in the context of computer systems?
+
+
+Answer: Networking refers to the process of connecting two or more computing devices to enable communication and resource sharing.
+
+
+2. Why is networking important in modern computing environments?
+
+
+Answer: I. Cost Savings: By enabling resource sharing, such as printers and storage devices, networks reduce the need for multiple hardware components, leading to significant cost reductions.
+II. Enhanced Storage Capacity: Centralized data storage allows for better data management and accessibility, improving productivity and reducing the need for multiple storage solutions.
+III. Improved Flexibility: Networks provide the flexibility for employees to access data and applications from various locations, supporting remote work and increasing overall efficiency.
+IV. Streamlined Communication: Networking facilitates real-time communication through emails, instant messaging, and video conferencing, enhancing collaboration among team members.
+V. Resource Sharing: Networks allow multiple users to share resources such as files, applications, and internet connections, optimizing utilization and reducing redundancy.
+VI. Scalability: As organizations grow, networks can be scaled to accommodate additional devices and users without significant infrastructure changes.
+VII. Security: Implementing security measures like firewalls and encryption within a network helps protect sensitive information from unauthorized access.
+VIII. Centralized Management: Networks enable centralized management of resources, simplifying tasks such as software updates and data backups.
+IX. Support for New Technologies: Networking is fundamental for the integration of emerging technologies like cloud computing, IoT, and big data analytics, which rely on interconnected systems.
+X. Competitive Advantage: Efficient networking can provide organizations with a competitive edge by enhancing communication, reducing costs, and enabling rapid adaptation to market changes.
+
+
+3. (Multiple Choice)
+Which of the following best describes computer networking?
+A. Sharing of hardware only
+B. Sharing of data and resources between computers
+C. Connecting only to the internet
+D. None of the above
+
+
+Answer: B
+
+
+4. Differentiate between a network and the Internet.
+
+
+Answer:    Network
+* A group of two or more connected devices that can communicate and share resources. 
+* It can be as small as two computers in a room (Local Area Network – LAN) or as large as a corporate environment (Wide Area Network – WAN).
+* Networks can be isolated, private, and managed within a specific scope.
+
+
+           Internet
+* A massive, global system of interconnected networks.
+* It uses standardized communication protocols (like TCP/IP) to ensure devices across different networks can communicate reliably.
+* The Internet allows access to services like websites, email, cloud platforms, and remote servers.
+
+
+5. Is the Internet a type of network or a collection of networks? Explain.
+
+
+Answer: The Internet is best described as a collection of interconnected networks. It links millions of private, public, academic, business, and government networks. These networks range from local area networks (LANs) to wide area networks (WANs), all communicating using TCP/IP. When these networks connect, they form an enormous global system that enables data sharing, communication, and access to resources.
+
+
+6. What are some common uses of the internet in networking? (Mention at least 3)
+
+
+Answer: Data Communication: Devices can send and receive data across vast distances using internet protocols like TCP/IP.
+ Enables real-time communication through messaging, email, VoIP, and video conferencing.
+
+
+Remote Access & Cloud Services: Users can connect to servers or devices remotely (e.g., SSH or VPN) for administration and troubleshooting.
+ Cloud platforms (like AWS, Azure) allow for scalable storage, computing power, and app deployment without local infrastructure.
+
+
+Resource Sharing: Facilitates the sharing of printers, files, and applications across local or global networks.
+
+
+7. Name and briefly describe any three network topologies.
+
+
+Answer: Star Topology: characterized by having a central node (like a hub, switch, or router) that all other devices connect to. Data transmission occurs through this central node. It is relatively easy to set up and manage, and if one device fails, it doesn't necessarily take down the entire network. However, if the central node fails, the whole network can be affected. 
+Bus Topology: all devices connect to a single cable called the "bus". Data is broadcast to all devices on the network, and each device checks if the data is addressed to it. This is a simple topology to implement for small networks, but it can become difficult to manage as the network grows, and a break in the cable can take down the entire network. 
+Ring Topology: The devices are connected in a closed loop, with data traveling in one direction (or both directions in a dual-ring setup) from one device to the next. Each device acts as a repeater, passing the data along until it reaches its destination. Ring topologies are relatively easy to set up and manage, but they can be susceptible to failure if one device or connection breaks, as it disrupts the entire loop.
+
+
+8. (Multiple Choice)
+In which topology does every device connect to a central hub or switch?
+A. Ring
+B. Star
+C. Mesh
+D. Bus
+
+
+Answer: B
+
+
+9. What are the advantages and disadvantages of mesh topology?
+
+
+Answer:    Advantages
+High Reliability and Fault Tolerance: Multiple pathways for data transmission prevent network disruptions even if some nodes or connections fail. 
+Scalability: Easy to add new devices without significantly impacting the existing network. 
+Data Transmission Speed: Multiple devices can transmit data simultaneously, potentially leading to faster data transfer. 
+Privacy and Security: Dedicated connections between devices can enhance privacy and security compared to shared connections. 
+             
+
+
+                  Disadvantages
+High Cost: The large number of connections and required hardware can make implementation expensive. 
+Complexity: Managing and maintaining a mesh topology can be challenging due to the numerous connections. 
+Complex Setup and Maintenance: The interconnectedness of the network can make setup and maintenance more difficult and time-consuming. 
+Resource Intensive: The redundancy and high bandwidth requirements may consume more resources compared to other topologies.
+10. Define the following network types: LAN, MAN, and WAN.
+
+
+Answer: LAN (Local Area Network): connects devices within a limited area, typically within a single building or a small group of buildings. Examples include home networks, office networks, and school networks. 
+MAN (Metropolitan Area Network): connects devices over a larger area than a LAN, often encompassing a city or a large metropolitan region. It can connect multiple LANs. 
+WAN (Wide Area Network): spans a very large geographic area, connecting networks across cities, countries, or even continents. The Internet is the most prominent example of a WAN.
+
+
+11. Which type of network is most commonly used in schools and small offices? Why?
+
+
+Answer: Local Area Network (LAN) because they connect devices within a limited geographical area.
+
+
+12. (Multiple Choice) Which network type covers the largest geographical area?
+A. LAN
+B. PAN
+C. MAN
+D. WAN
+
+
+Answer: D
+
+
+13. List and define the function of any four common networking devices.
+
+
+Answer: 1. Hub: a simple connectivity device that connects cables, forming a network segment. It serves as a repeater for long-distance data and retransmits without filtering. It handles both digital and analog data when configured appropriately.
+2. Switch: more advanced than a hub. It intelligently forwards data based on hardware addresses. Switches enhance network efficiency and security by making forwarding decisions using TCP/IP protocol headers. Additionally, multilayer switches can function as both a switch and a router.
+3. Router: can filter and forward data using logical addresses like IP addresses. They store network information, act as packet-filtering firewalls, and play a vital role in controlling and optimizing network traffic.
+4. Bridge: a networking device that filters and forwards packets based on physical addresses, connecting different network segments. It manages data flow between segments and is beneficial for dividing extensive networks into smaller sections.
+14. What is the difference between a switch and a hub?
+
+
+Answer:     Hub
+Layer 1 device: Operates at the physical layer of the OSI model, simply repeating electrical signals. 
+Broadcasts data: Sends received data to all connected devices, regardless of destination. 
+Inefficient: Causes network congestion and slower speeds, especially with multiple devices transmitting. 
+Older technology: Largely replaced by switches in modern networks. 
+
+
+        Switch
+Layer 2 device: Operates at the data link layer, using MAC addresses to direct traffic. 
+Intelligent forwarding: Examines the destination MAC address and sends data only to the intended recipient. 
+More efficient: Reduces network congestion and improves speed by minimizing unnecessary data transfer. 
+Modern networking: The preferred choice for connecting devices in modern networks.
+
+
+15. (True/False)
+A router is used to connect different networks.
+Answer: True
